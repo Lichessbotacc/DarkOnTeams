@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 import pytz
 import time  # Import time for sleep function
 
-TEAM_ID = "darkonswiss-dos"
+TEAM_ID = "darkonteams"
 
 # Token aus ENV
 API_TOKEN = os.getenv("KEY")
@@ -76,7 +76,7 @@ def create_swiss():
         else:
             print("❌ Error:", r.status_code, r.text)
 
-        time.sleep(2)  # Wait 2 seconds between requests to avoid simultaneous creation
+        time.sleep(1)  # Wait 2 seconds between requests to avoid simultaneous creation
 
 if __name__ == "__main__":
     create_swiss()

@@ -16,20 +16,11 @@ if not API_TOKEN:
 
 # Turnieroptionen mit klaren Namen
 OPTIONS = [
-    {"name": "Hourly Ultrabullet",          "clock": {"limit": 15,   "increment": 0},  "nbRounds": 20},
-    {"name": "Hourly Bullet",               "clock": {"limit": 60,   "increment": 0},  "nbRounds": 20},
-    {"name": "Hourly Bullet Increment",     "clock": {"limit": 120,  "increment": 1},  "nbRounds": 15},
+
     {"name": "Hourly Blitz",                "clock": {"limit": 180,  "increment": 0},  "nbRounds": 13},
-    {"name": "Hourly Blitz Increment",      "clock": {"limit": 180,  "increment": 2},  "nbRounds": 13},
-    {"name": "Hourly Blitz",                "clock": {"limit": 300,  "increment": 0},  "nbRounds": 11},
-    {"name": "Hourly Blitz Increment",      "clock": {"limit": 300,  "increment": 3},  "nbRounds": 11},
     {"name": "Hourly Rapid",                "clock": {"limit": 600,  "increment": 0},  "nbRounds": 9},
-    {"name": "Hourly Rapid Increment",      "clock": {"limit": 600,  "increment": 5},  "nbRounds": 9},
-    {"name": "Hourly Rapid",                "clock": {"limit": 900,  "increment": 0},  "nbRounds": 9},
-    {"name": "Hourly Rapid Increment",      "clock": {"limit": 900,  "increment": 10}, "nbRounds": 9},
     {"name": "Hourly Classical",            "clock": {"limit": 1800, "increment": 0},  "nbRounds": 5},
-    {"name": "Hourly Classical Increment",  "clock": {"limit": 1200, "increment": 10}, "nbRounds": 5},
-                                              
+   
 ]
 
 def utc_millis_for_hour(hour):

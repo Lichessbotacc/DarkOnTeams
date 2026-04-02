@@ -27,7 +27,7 @@ def utc_millis_for_hour(hour):
     utc = pytz.utc
     now = datetime.now(utc)
     tomorrow = now + timedelta(days=1)
-    start = datetime(tomorrow.year, tomorrow.month, tomorrow.day, hour, 0, tzinfo=utc)
+    start = datetime(tomorrow.year, tomorrow.month, tomorrow.day, hour, 15, tzinfo=utc)
     return int(start.timestamp() * 1000), start
 
 def read_description():

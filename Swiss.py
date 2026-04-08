@@ -22,7 +22,7 @@ OPTIONS = [
     {"name": "10 DOLLARS SWISS QUALIFIER",                "clock": {"limit": 300,  "increment": 3},  "nbRounds": 9},#5+3
     {"name": "10 DOLLARS SWISS QUALIFIER",                "clock": {"limit": 600,  "increment": 0},  "nbRounds": 9}, #10+0
     {"name": "10 DOLLARS SWISS QUALIFIER",                "clock": {"limit": 600,  "increment": 5},  "nbRounds": 7}, #10+5
-    {"name": "10 DOLLARS SWISS QUALIFIER",            "clock": {"limit": 1800, "increment": 0},  "nbRounds": 5}, #30+0
+    {"name": "10 DOLLARS SWISS QUALIFIER",                "clock": {"limit": 1800, "increment": 0},  "nbRounds": 5}, #30+0
    
 ]
 

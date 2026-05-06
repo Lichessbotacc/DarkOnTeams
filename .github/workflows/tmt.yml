@@ -2,7 +2,7 @@ name: Create Lichess Swiss Tournament
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # jede Stunde
+    - cron: "0 12 * * *"   # jede Stunde
   workflow_dispatch:
 
 jobs:

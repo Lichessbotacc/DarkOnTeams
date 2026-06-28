@@ -17,12 +17,12 @@ if not API_TOKEN:
 # Turnieroptionen mit klaren Namen
 OPTIONS = [
 
-    {"name": "10 DOLLARS SWISS QUALIFIER",                "clock": {"limit": 180,  "increment": 0},  "nbRounds": 13},#3+0
-    {"name": "10 DOLLARS SWISS QUALIFIER",                "clock": {"limit": 180,  "increment": 2},  "nbRounds": 11},#3+2
-    {"name": "10 DOLLARS SWISS QUALIFIER",                "clock": {"limit": 300,  "increment": 3},  "nbRounds": 9},#5+3
-    {"name": "10 DOLLARS SWISS QUALIFIER",                "clock": {"limit": 600,  "increment": 0},  "nbRounds": 9}, #10+0
-    {"name": "10 DOLLARS SWISS QUALIFIER",                "clock": {"limit": 600,  "increment": 5},  "nbRounds": 7}, #10+5
-    {"name": "10 DOLLARS SWISS QUALIFIER",                "clock": {"limit": 1800, "increment": 0},  "nbRounds": 5}, #30+0
+    {"name": "Hourly 3+0",                "clock": {"limit": 180,  "increment": 0},  "nbRounds": 13},#3+0
+    {"name": "Hourly 3+2",                "clock": {"limit": 180,  "increment": 2},  "nbRounds": 11},#3+2
+    {"name": "Hourly 5+3",                "clock": {"limit": 300,  "increment": 3},  "nbRounds": 9},#5+3
+    {"name": "Hourly 10+0",                "clock": {"limit": 600,  "increment": 0},  "nbRounds": 9}, #10+0
+    {"name": "Hourly 10+5",                "clock": {"limit": 600,  "increment": 5},  "nbRounds": 7}, #10+5
+    {"name": "Hourly 30+0",                "clock": {"limit": 1800, "increment": 0},  "nbRounds": 5}, #30+0
    
 ]
 
